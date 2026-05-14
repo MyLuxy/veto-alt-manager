@@ -1,0 +1,50 @@
+# Claude Code
+.claude/
+
+# ── Binari ovunque ────────────────────────────────────────────────
+*.dll
+*.exe
+*.o
+*.obj
+
+# ── Qt runtime (root) ─────────────────────────────────────────────
+platforms/
+tls/
+imageformats/
+qml/
+qt.conf
+
+# ── File test/scratch nella root ──────────────────────────────────
+t.cpp
+test_simple.cpp
+
+# ── Log nella root ────────────────────────────────────────────────
+build_err.txt
+build_out.txt
+dll_log.txt
+veto_log.txt
+test_err.txt
+
+# ── Cartelle di build ─────────────────────────────────────────────
+progetto_cpp/bin/
+progetto_cpp/bin_qt/
+progetto_cpp/build_qt/
+progetto_cpp/build_static/
+progetto_cpp/build_installer/
+progetto_cpp/installer_bundle/
+progetto_cpp/installer/
+
+# ── Log di build in progetto_cpp ──────────────────────────────────
+progetto_cpp/compile_err.txt
+progetto_cpp/err.txt
+progetto_cpp/run_err.txt
+progetto_cpp/run_err2.txt
+progetto_cpp/run_out.txt
+progetto_cpp/run_out2.txt
+
+# ── Generali ──────────────────────────────────────────────────────
+*.user
+*.suo
+.vs/
+__pycache__/
+*.pyc

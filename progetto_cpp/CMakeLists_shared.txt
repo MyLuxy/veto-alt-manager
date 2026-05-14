@@ -1,0 +1,28 @@
+cmake_minimum_required(VERSION 3.21)
+project(VetoAltManager VERSION 2.0 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_WIN32_EXECUTABLE ON)
+
+find_package(Qt6 REQUIRED COMPONENTS Core Gui Quick QuickControls2)
+
+qt_add_executable(VetoAltManager
+    src/main_qt.cpp
+    src/AltManagerBridge.cpp
+)
+
+qt_add_qml_module(VetoAltManager
+    URI "Veto"
+    VERSION 1.0
+    QML_FILES
+        qml/main.qml
+        qml/components/VapeButton.qml
+)
+
+target_link_libraries(VetoAltManager PRIVATE
+    Qt6::Core Qt6::Gui Qt6::Quick Qt6::QuickControls2
+    ws2_32 psapi advapi32 dwmapi
+)
+
+target_include_directories(VetoAltManager PRIVATE src)
