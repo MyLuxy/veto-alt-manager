@@ -1,4 +1,4 @@
-# VetoAltManager — Alt Switcher for Minecraft 1.8.9
+# VetoAltManager — Alt Manager for Minecraft 1.8.9
 ### Works with Lunar Client, Badlion, OptiFine and Vanilla
 
 A lightweight Windows utility that lets you switch your in-game Minecraft username on the fly — **no client restart required**.
