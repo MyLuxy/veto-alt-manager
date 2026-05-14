@@ -1,12 +1,10 @@
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/77d806d4-150a-4f3a-af2d-b20ef3d53a18" alt="Anteprima Veto 3D"/> 
-  </p>
-  
-### Works with Lunar Client, Badlion, OptiFine and Vanilla
+<img src="https://github.com/user-attachments/assets/77d806d4-150a-4f3a-af2d-b20ef3d53a18" alt="VetoAltManager" width="250"/> 
 
-A lightweight Windows utility that lets you switch your in-game Minecraft username on the fly — **no client restart required**.
+## Alt Manager for Lunar Client, Badlion and Optifine
 
----
+A lightweight Windows utility that lets you switch your in-game Minecraft username.
+
+
 
 # Supported Clients
 
@@ -17,7 +15,7 @@ A lightweight Windows utility that lets you switch your in-game Minecraft userna
 | OptiFine | ✅ |
 | Vanilla 1.8.9 | ✅ |
 
----
+
 
 # Features
 
@@ -27,7 +25,7 @@ A lightweight Windows utility that lets you switch your in-game Minecraft userna
 - Recent alts history with Minecraft skin previews
 - Minimal, frameless dark UI
 
----
+
 
 # How it works
 
@@ -57,7 +55,7 @@ Once the DLL is loaded inside Minecraft, VetoAltManager communicates with it thr
 
 The tool polls the pipe every 500ms (up to 30 seconds) after injection until the DLL is ready, then sends the change command automatically.
 
----
+
 
 # Requirements
 
@@ -65,7 +63,7 @@ The tool polls the pipe every 500ms (up to 30 seconds) after injection until the
 - Minecraft 1.8.9 (must be fully loaded before launching VetoAltManager)
 - Administrator privileges (required for DLL injection)
 
----
+
 
 # Usage
 
@@ -75,7 +73,7 @@ The tool polls the pipe every 500ms (up to 30 seconds) after injection until the
 4. Type a username and click **Change Alt**
 5. To revert, click **Restore Original**
 
----
+
 
 # Building from source
 
