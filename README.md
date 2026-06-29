@@ -1,5 +1,5 @@
 <p align="center">
-<img src="progetto_cpp/img/logo.png" alt="Testo alternativo" width="285">
+<img src="progetto_cpp/img/logo.png" alt="Veto" width="285">
 </p>
 
 <div align="center">
@@ -26,7 +26,16 @@ Minecraft utility that lets you use cracked accounts on premium clients.
 - Recent alts history with Minecraft skin previews
 - Minimal, frameless dark UI
 
+# Spoiler
 
+<details>
+<summary><b>Click here to see the image</b></summary>
+
+<p align="center">
+  <img src="progetto_cpp/img/Perspective.png" alt="Testo alternativo" width="500">
+</p>
+
+</details>
 
 # How it works
 
