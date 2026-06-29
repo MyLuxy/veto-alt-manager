@@ -1,19 +1,20 @@
-<img src="https://github.com/user-attachments/assets/77d806d4-150a-4f3a-af2d-b20ef3d53a18" alt="VetoAltManager" width="250"/> 
+<p align="center">
+<img src="progetto_cpp/img/logo.png" alt="Testo alternativo" width="285">
+</p>
 
-## Alt Manager for Lunar Client, Badlion and Optifine
+<div align="center">
 
-A lightweight Windows utility that lets you switch your in-game Minecraft username.
+### Alt Manager for Lunar Client, Badlion and Optifine 1.8.9
 
-
+Minecraft utility that lets you use cracked accounts on premium clients.
 
 # Supported Clients
 
-| Client | Supported |
-|---|---|
-| Lunar Client | ✅ |
-| Badlion Client | ✅ |
-| OptiFine | ✅ |
-| Vanilla 1.8.9 | ✅ |
+<br>
+
+<a href="https://www.badlion.net/" target="_blank" style="text-decoration: none; display: inline-block;"><img src="https://assets.badlion.net/cdn-cgi/image/width=300,f=auto/site/assets/badlion-logo.webp" alt="Badlion Client" height="75" style="border: none; outline: none; text-decoration: none;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.lunarclient.com/" target="_blank" style="text-decoration: none; display: inline-block;"><img src="https://www.lunarclient.com/assets/img/logo.webp" alt="Lunar Client" height="75" style="border: none; outline: none; text-decoration: none;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://optifine.net/" target="_blank" style="text-decoration: none; display: inline-block;"><img src="https://avatars.githubusercontent.com/u/69833574?s=280&v=4" alt="Optifine" height="75" style="border: none; outline: none; text-decoration: none;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.minecraft.net/" target="_blank" style="text-decoration: none; display: inline-block;"><img src="https://static.wikia.nocookie.net/logopedia/images/0/0f/Minecraft_Bedrock_2023.svg/revision/latest/scale-to-width-down/250?cb=20230920113315" alt="Vanilla Minecraft" height="75" style="border: none; outline: none; text-decoration: none;"></a>
+
+</div>
 
 
 
@@ -92,7 +93,3 @@ cmake --build .
 ```
 
 Or use the provided `build_qt.bat` script on Windows.
-
----
-
-*Created by MyLuxy*
